@@ -24,7 +24,7 @@ Output: false
 /**
  * @param {string} pattern
  * @param {string} str
- * @return {boolean}
+ * @return {boolean}2
  */
 
 let wordPattern = function(pattern, str) {
@@ -48,6 +48,7 @@ let wordPattern = function(pattern, str) {
             patternMap[pattern[i]] =  strArr[i];
         }
     }
-
     return  true;
 };
+
+module.exports = wordPattern;
