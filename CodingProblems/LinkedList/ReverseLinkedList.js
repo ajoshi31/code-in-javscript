@@ -1,20 +1,12 @@
-function ListNode(val, next) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-}
+let LinkedList = require('./../../DSImplementations/LinkedList/LinkedList.js');
+
+let list = new LinkedList();
+
+list.addNode(2);
+list.addNode(3);
+list.addNode(5);
 
 let reverseBetween = function (head, m, n) {
-
 };
 
-
-function LinkedList(head) {
-    this.head = (head === undefined ? null : head);
-}
-
-let node1 = new ListNode(2);
-let node2 = new ListNode(5);
-node1.next = node2;
-let list = new LinkedList(node1);
-
-
+console.log(list);
