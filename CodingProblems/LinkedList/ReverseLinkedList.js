@@ -1,12 +1,31 @@
-let LinkedList = require('./../../DSImplementations/LinkedList/LinkedList.js');
+let LinkedList1 = require('./../../DSImplementations/LinkedList/LinkedList.js');
+let list = new LinkedList1();
 
-let list = new LinkedList();
-
+list.addNode(1);
 list.addNode(2);
 list.addNode(3);
+list.addNode(4);
 list.addNode(5);
+list.addNode(6);
+list.addNode(7);
+list.addNode(8);
+list.addNode(9);
 
-let reverseBetween = function (head, m, n) {
+let reverse = function (head) {
+    let previous = null;
+    let curr = head;
+    while ( curr != null){
+        let temp = curr.next;
+        curr.next = previous;
+        previous  = curr;
+        curr = temp;
+    }
+    return previous
 };
 
-console.log(list);
+let a = reverse(list.head);
+
+while(a != null){
+    console.log(a.val);
+    a = a.next;
+}
