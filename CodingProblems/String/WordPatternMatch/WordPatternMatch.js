@@ -27,7 +27,6 @@ Output: false
  */
 
 let wordPattern = function(pattern, str) {
-
     let strArr =  str.split(" ");
     if(pattern.length !== strArr.length){
         return  false
