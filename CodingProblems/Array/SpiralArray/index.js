@@ -34,9 +34,4 @@ let generateMatrix = function (n) {
     return matrix;
 }
 
-let result1 = generateMatrix(3);
-
-result1.forEach(item => {
-    console.log("")
-    item.forEach(item => console.log(item));
-});
+module.exports = generateMatrix;
