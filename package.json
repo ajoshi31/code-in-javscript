@@ -25,5 +25,8 @@
   "devDependencies": {
     "@jest/globals": "^26.4.2",
     "jest": "^25.2.2"
+  },
+  "dependencies": {
+    "winston": "^3.3.3"
   }
 }

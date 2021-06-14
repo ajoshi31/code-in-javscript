@@ -47,7 +47,7 @@ function sortRoman(names) {
     }, [])
 }
 
-var arrayObj = ["Louis IX", "Louis V",  "Philippe IX",
+let arrayObj = ["Louis IX", "Louis V",  "Philippe IX",
     "Philippe L", "Phili II", "Philippe II", "Louis I",];
 
 console.log(sortRoman(arrayObj));

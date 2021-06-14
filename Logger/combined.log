@@ -1,0 +1,4 @@
+{"component":"user-service","userID":"$12","name":"Atul Joshi","email":"ajoshi.biz@gmail.com","level":"info","message":"User created!","timestamp":"2020-09-22 01:41:15"}
+{"component":"user-service","userID":"$12","name":"Atul Joshi","email":"ajoshi.biz@gmail.com","level":"info","message":"User created!","timestamp":"2020-09-22 01:42:18"}
+{"component":"user-service","userID":"$12","name":"Atul Joshi","email":"ajoshi.biz@gmail.com","level":"info","message":"User created!","timestamp":"2020-09-22 01:43:15"}
+{"component":"user-service","userID":"$12","name":"Atul Joshi","email":"ajoshi.biz@gmail.com","err":{},"level":"error","message":"User created!","timestamp":"2020-09-22 01:43:15"}
